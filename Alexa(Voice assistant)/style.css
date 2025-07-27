@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: #0d0d2b;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.container {
+    width: 400px;
+    background: rgba(15, 15, 40, 0.8);
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 0 20px #7f00ff, 0 0 40px #0000ff;
+}
+
+.circle-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 30px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px #8e2de2, 0 0 30px #4a00e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a40;
+}
+
+.circle-avatar video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 18px;
+    color: #c0aaff;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #7f00ff, #4a00e0);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px #7f00ff;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #4a00e0, 0 0 40px #7f00ff;
+}
+
+.btn.listening {
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    animation: pulse 1.2s infinite;
+    box-shadow: 0 0 15px #ff416c, 0 0 25px #ff4b2b;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    background-image: none;
+}
+
+.light-mode .container {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px #cccccc, 0 0 40px #dddddd;
+    color: #000;
+}
+
+.light-mode h1,
+.light-mode p {
+    color: #000000;
+}
+
+.light-mode .btn {
+    background: linear-gradient(90deg, #4a00e0, #7f00ff);
+    color: white;
+}
+.dark-mode {
+    background-color: #0d0d2b;
+    background-image: url('./Leonardo_Phoenix_A_visually_captivating_hightech_background_fo_3.jpg');
+    color: #ffffff;
+}
+
+.dark-mode .container {
+    background: rgba(15, 15, 40, 0.8);
+    box-shadow: 0 0 20px #7f00ff, 0 0 40px #0000ff;
+    color: #ffffff;
+}
