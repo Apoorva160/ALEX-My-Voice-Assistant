@@ -5,7 +5,7 @@
 
 ---
 
-## 🔥 Features
+##  Features
 
 - 🎙️ **Voice Recognition**: Listen and respond to user voice commands using Web Speech API.
 - 🗣️ **Speech Synthesis**: Replies with a human-like voice (depends on device & OS).
@@ -24,7 +24,7 @@
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 | Tech            | Description                                      |
 |-----------------|--------------------------------------------------|
@@ -36,7 +36,7 @@
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. Click on the **"Speak" button**.
 2. Say a command like:
@@ -49,7 +49,7 @@
 
 ---
 
-## 📱 Mobile Compatibility
+## Mobile Compatibility
 
 - Fully responsive layout and functioning on Android devices (tested on Vivo T3, etc.).
 - Speech synthesis may differ in voice tone (male/female) based on OS and browser.
@@ -59,24 +59,22 @@
 
 ---
 
-## 📝 Note
+##  Note
 
 - Currently, the assistant does **not** support continuous listening or stop command (`"Alex stop"`). It listens for one command at a time.
 - The voice greeting is personalized with "Yes, Apoorva" — you can **change this manually** in the JavaScript if needed for demo or public use.
 
 ---
 
-## 🔗 Live Demo
+##  Live Demo
 
-🌐 [Click Here to Try Alex on Netlify] (https://alex-virtualassistant.netlify.app/))
+ [Click Here to Try Alex on Netlify] (https://alex-virtualassistant.netlify.app/))
 
 ---
 
-## 📸 Preview
 
 
-
-## 🙋‍♀️ Created by
+##  Created by
 
 **Apoorva Panigrahi**  
 
